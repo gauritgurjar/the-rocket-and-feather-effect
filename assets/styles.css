@@ -408,9 +408,11 @@ tr.active { background: var(--gold-bg); }
   overflow: hidden;
 }
 .card-grid img {
-  aspect-ratio: 16 / 10;
+  width: 132px;
+  height: 132px;
+  aspect-ratio: 1;
   object-fit: cover;
-  margin-bottom: 0.95rem;
+  margin: 1rem 1.25rem 0.7rem;
   background: var(--paper);
 }
 .card-grid h3, .card-grid p,
