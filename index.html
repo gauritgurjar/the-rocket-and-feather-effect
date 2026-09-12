@@ -25,7 +25,6 @@
         <a href="#explore">Explore</a>
         <a href="#rank">Countries</a>
         <a href="#shop">Shopper notes</a>
-        <a href="#method">How we measured</a>
       </nav>
     </div>
   </header>
@@ -270,40 +269,6 @@
       </div>
     </section>
 
-    <section id="method" class="method">
-      <div class="wrap">
-        <div class="section-head">
-          <p class="eyebrow">For the datathon and anyone who wants the method</p>
-          <h2>Two tests, kept on separate tracks</h2>
-        </div>
-        <div class="method-grid">
-          <article>
-            <p class="method-kicker">Notebook 1 · United States</p>
-            <h3>Monthly Houck split, farm to shelf</h3>
-            <p>Nine close BLS pairs (eggs, milk, chicken, beef, pork, fruit, vegetables, legumes, rice). Producer-price changes split into rises vs falls, lags 0–3, one model per food. No pooling. Direction often leans rocket-and-feather. It is not statistically significant at the farm gate.</p>
-            <a href="https://colab.research.google.com/drive/1ZABsx5VRpqIMIBhXGXSKuUMxKi0T87rK">Open the U.S. Colab</a>
-          </article>
-          <article>
-            <p class="method-kicker">Notebooks 2 &amp; 3 · Canada, UK, EU six</p>
-            <h3>Quarterly paired percent changes</h3>
-            <p>Official CPI and PPI paired by country, food, and quarter. A quarter is kept only if both sides exist on the same index base. Pass-through is mean grocery change ÷ mean farm change in those windows. Canada, the UK, and the EU six (Czechia, Germany, Spain, France, Italy, Poland) are the chart set.</p>
-            <p class="method-links">
-              <a href="https://colab.research.google.com/drive/1ZF2xnmbog-Q-O2b0O9f47lQkqVLnK0lr">Canada / UK Colab</a>
-              <a href="https://colab.research.google.com/drive/1eFg6NXDPXH8eyz9dA7MRtxvkZaIX8ZHp">EU six Colab</a>
-            </p>
-          </article>
-        </div>
-        <div class="method-notes">
-          <h3>What we did not do</h3>
-          <ul>
-            <li>We did not rebase official series in the master file, interpolate missing months, or turn annual FAOSTAT into monthly values.</li>
-            <li>Meat &amp; Fish is meat or livestock, not an average of meat plus fish. Combined official classes (milk + eggs) were not split.</li>
-            <li>Australia and the UK pair only three of six foods; Japan pairs four. Those gaps are coverage, not guesses.</li>
-            <li>This is descriptive. CPI and PPI are different price concepts. Ratios are not a cost share.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="site-footer">
@@ -313,7 +278,7 @@
         <p>The Dataquakes · Women in Data Datathon 2026. Built to stay public after the event.</p>
       </div>
       <div>
-        <p>Sources include BLS, StatCan, ONS, Eurostat HICP and agricultural PPI, ABS, and national statistical agencies. Dataset: <a href="https://github.com/gauritgurjar/food-cpi-ppi-dataset">food-cpi-ppi-dataset</a> <code>output/</code> files.</p>
+        <p>Sources include BLS, StatCan, ONS, Eurostat HICP and agricultural PPI, ABS, and national statistical agencies. Official index values; not rebased across countries.</p>
       </div>
     </div>
   </footer>

@@ -30,14 +30,8 @@ That writes `web/data/site.json` from:
 
 ## Publish
 
-Live: https://gauritgurjar.github.io/food-cpi-ppi-dataset/
+Live: https://gauritgurjar.github.io/the-rocket-and-feather-effect/
 
-GitHub Pages deploys the `web/` folder from `main` via `.github/workflows/pages.yml`.
+The dataset repo is private, so the public site is https://github.com/gauritgurjar/the-rocket-and-feather-effect (the `web/` folder).
 
 Shareable filter URLs look like `?c=CAN&f=Vegetables&from=2021&to=2026`.
-
-## Notebooks behind the page
-
-- [U.S. monthly Houck test](https://colab.research.google.com/drive/1ZABsx5VRpqIMIBhXGXSKuUMxKi0T87rK)
-- [Canada / UK](https://colab.research.google.com/drive/1ZF2xnmbog-Q-O2b0O9f47lQkqVLnK0lr)
-- [EU six](https://colab.research.google.com/drive/1eFg6NXDPXH8eyz9dA7MRtxvkZaIX8ZHp)
